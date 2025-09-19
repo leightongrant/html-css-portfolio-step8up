@@ -8,23 +8,66 @@
 		/>
 		<link
 			rel="stylesheet"
-			href="./assets/style.css"
+			href="./assets/css/style.css"
 		/>
 		<title>Personal Portfolio</title>
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav
+				class="container"
+				id="main-nav"
+			>
 				<h2>Leighton Grant</h2>
 				<div id="links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact"></a></div>
 			</nav>
-			<section></section>
+			<section id="hero"></section>
 		</header>
 		<main>
-			<section id="about"></section>
-			<section id="projects"></section>
-			<section id="contact"></section>
+			<section
+				id="about"
+				class="p-lg"
+			>
+				<div class="about-content-wrapper container">
+					<div class="about-image">
+						<img
+							src="./assets/images/profile-img.webp"
+							alt="Profile photo of Leighton Grant"
+							loading="eager"
+						/>
+					</div>
+					<div class="about-content">
+						<h2>Welcome to my profile</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint accusantium recusandae, facilis architecto commodi asperiores
+							dolores cum praesentium, voluptate non ab atque accusamus! Reprehenderit optio qui voluptatum nesciunt at.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint accusantium recusandae, facilis architecto commodi asperiores
+							dolores cum praesentium, voluptate non ab atque accusamus! Reprehenderit optio qui voluptatum nesciunt at.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint accusantium recusandae, facilis architecto commodi asperiores
+							dolores cum praesentium, voluptate non ab atque accusamus! Reprehenderit optio qui voluptatum nesciunt at.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section
+				id="projects"
+				class="p-lg"
+			>
+				<div class="projects-content-wrapper container"></div>
+			</section>
+			<section
+				id="contact"
+				class="p-lg"
+			>
+				<div class="contact-content-wrapper container"></div>
+			</section>
 		</main>
-		<footer>&copy; 2025 | Leighton Grant</footer>
+		<footer class="p-md">
+			<div class="footer-content-wrapper container"><p>&copy; Copyright 2025 | Leighton Grant</p></div>
+		</footer>
 	</body>
 </html>

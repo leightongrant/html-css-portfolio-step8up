@@ -15,6 +15,7 @@ h1,
 h2,
 h3 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 800;
 }
 h1 {
 	font-size: 3rem;
@@ -24,4 +25,42 @@ h2 {
 }
 h3 {
 	font-size: 2rem;
+}
+
+.p-lg {
+	padding-block: 6rem;
+}
+.p-md {
+	padding-block: 3rem;
+}
+.container {
+	padding-inline: 2rem;
+	margin: auto;
+	max-width: 1140px;
+}
+/* About */
+.about-image img {
+	width: 100%;
+}
+.about-image {
+	outline: 1px solid red;
+	display: inline-block;
+	width: 30%;
+	margin-right: 5%;
+}
+.about-content {
+	outline: 1px solid blue;
+	display: inline-block;
+	width: 60%;
+}
+
+/* Footer */
+footer {
+	background: #36454f;
+}
+.footer-content-wrapper {
+	color: #f2f0ef;
+}
+.footer-content-wrapper > p {
+	text-align: center;
 }
