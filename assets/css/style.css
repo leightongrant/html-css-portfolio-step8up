@@ -50,6 +50,16 @@ header {
 nav > * {
 	display: inline-block;
 }
+#logo {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 800;
+	color: #36454f;
+	font-size: 2.5rem;
+	text-decoration: none;
+}
+#logo:hover {
+	color: #36454faa;
+}
 #links {
 	float: inline-end;
 	padding-block: 1rem;
@@ -99,12 +109,37 @@ nav > * {
 .project-card-img {
 	width: 100%;
 }
+.project-card footer {
+	margin-block-start: 0.5rem;
+	border-top: 2px solid #f2f0ef;
+}
+.repo-link,
+.project-link {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.2rem;
+	color: #36454f;
+	font-weight: 500;
+}
+.repo-link:hover,
+.project-link:hover {
+	color: #36454faa;
+	font-weight: 400;
+}
+.repo-link {
+	float: inline-start;
+}
+.project-link {
+	float: inline-end;
+}
 .middle-card {
 	margin-inline: 4%;
 }
+
 #projects-row-two {
 	margin-block: 3rem;
 }
+
 /* Footer */
 #main-footer {
 	background: #36454f;
