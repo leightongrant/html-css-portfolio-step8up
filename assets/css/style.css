@@ -108,15 +108,16 @@ nav {
 #projects {
 	background: #f2f0ef;
 }
+#projects-content-wrapper {
+	display: grid;
+	grid: auto-flow / 1fr;
+	gap: 2rem;
+}
 .project-card {
-	width: 30%;
-	display: inline-block;
 	background: #fff;
 	padding: 0.5rem;
 }
-.project-card > * {
-	margin-block-end: 0.25rem;
-}
+
 .project-card-img {
 	width: 100%;
 }
@@ -143,13 +144,7 @@ nav {
 .project-link {
 	float: inline-end;
 }
-.middle-card {
-	margin-inline: 4%;
-}
 
-#projects-row-two {
-	margin-block: 3rem;
-}
 /* Contact */
 textarea {
 	display: block;
@@ -239,6 +234,9 @@ button {
 		font-size: 2.5rem;
 		transition: all 1s ease-in;
 	}
+	#projects-content-wrapper {
+		grid: auto-flow / 1fr 1fr;
+	}
 }
 
 @media (min-width: 992px) {
@@ -250,6 +248,9 @@ button {
 	}
 	.about-image img {
 		aspect-ratio: 1/1;
+	}
+	#projects-content-wrapper {
+		grid: auto-flow / 1fr 1fr 1fr;
 	}
 }
 @media (min-width: 1200px) {
