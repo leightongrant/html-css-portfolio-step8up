@@ -150,7 +150,7 @@ textarea {
 	display: block;
 }
 form {
-	width: 50%;
+	width: 100%;
 	margin: auto;
 }
 form > * {
@@ -159,24 +159,27 @@ form > * {
 label {
 	display: block;
 }
-input,
+form input,
 textarea {
 	width: 100%;
 	padding: 1rem;
 	border: none;
 	outline: 1px solid #f2f0ef;
 }
-input:focus,
+form input:focus,
 textarea:focus {
 	outline-color: #36454f;
 }
-button {
+form button {
 	padding: 1rem;
 	background: #f2f0ef;
 	border: none;
 	cursor: pointer;
 }
-/* Other Contact */
+form button:hover {
+	background: #f2f0efaa;
+}
+
 #contact-other a {
 	font-size: 1.125rem;
 	color: #36454f;
@@ -251,6 +254,9 @@ button {
 	}
 	#projects-content-wrapper {
 		grid: auto-flow / 1fr 1fr 1fr;
+	}
+	form {
+		width: 80%;
 	}
 }
 @media (min-width: 1200px) {
