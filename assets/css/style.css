@@ -16,6 +16,12 @@ form {
 p {
 	font-size: 1.125rem;
 }
+p,
+h1,
+h2,
+h3 {
+	margin-block-end: 1rem;
+}
 h1,
 h2,
 h3 {
