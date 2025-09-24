@@ -1,3 +1,6 @@
+:root {
+	scroll-behavior: smooth;
+}
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -145,6 +148,7 @@ a[type='button']:hover {
 }
 
 /* About */
+
 #about-content-wrapper {
 	display: grid;
 	gap: 1.5rem;
