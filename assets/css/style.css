@@ -170,9 +170,16 @@ a[type='button']:hover {
 	display: grid;
 	grid-template-rows: auto auto 1fr auto;
 }
+.project-image {
+	overflow: hidden;
+}
 
 .project-card-img {
 	width: 100%;
+	transition: all 0.5s linear;
+}
+.project-card-img:hover {
+	transform: scale(1.1);
 }
 .project-card footer {
 	margin-block-start: 0.5rem;
@@ -197,6 +204,10 @@ a[type='button']:hover {
 /* Contact */
 textarea {
 	display: block;
+}
+form h2 {
+	text-align: center;
+	margin-block-end: 3rem;
 }
 form {
 	width: 100%;
