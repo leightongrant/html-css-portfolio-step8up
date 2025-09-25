@@ -2,6 +2,10 @@
 
 A personal portfolio website to showcase what we've covered in the first week of my Full Stack Developer Course. The site is built with HTML and CSS. It showcases projects, skills, and a point of contact.
 
+## Screenshot
+
+![Portfolio Screenshot](./assets/images/screenshot.jpeg)
+
 ## Live Demo
 
 You can view the live version of the portfolio here: [https://leightongrant.github.io/html-css-portfolio-step8up/](https://leightongrant.github.io/html-css-portfolio-step8up/)
