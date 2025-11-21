@@ -4,7 +4,7 @@ A personal portfolio website to showcase what we've covered in the first week of
 
 ## Live Demo
 
-You can view the live version of the portfolio here: [https://leightongrant.github.io/html-css-portfolio-step8up/](https://leightongrant.github.io/html-css-portfolio-step8up/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-brightgreen?style=for-the-badge)](https://leightongrant.github.io/html-css-portfolio-step8up/)
 
 ## Features
 
@@ -15,10 +15,7 @@ You can view the live version of the portfolio here: [https://leightongrant.gith
 
 ## Technologies Used
 
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-</p>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## How to Use
 
