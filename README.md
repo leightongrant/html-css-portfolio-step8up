@@ -10,7 +10,7 @@ A personal portfolio website to showcase what we've covered in the first week of
 
 ## Preview
 
-![Project Screenshot](https://raw.githubusercontent.com/leightongrant/html-css-portfolio-step8up/main/assets/images/screenshot-html-css-webp)
+![Project Screenshot](https://raw.githubusercontent.com/leightongrant/html-css-portfolio-step8up/main/assets/images/screenshot.webp)
 
 ## Features
 
